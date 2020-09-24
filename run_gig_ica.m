@@ -14,7 +14,7 @@ function [gigica_sm, gigica_tc] = run_gig_ica(subject_data, ic_path, mask_path, 
     mask_ind = find( mask_ind == 1 );
 
     disp('loading group level maps')
-    icasig = niftiread( ic_path );
+    icasig = spm_read_vols( spm_vol( ic_path ) );
     icasig = reshape(icasig, [size(icasig,1)*size(icasig,2)*size(icasig,3) size(icasig,4)]);
     icasig = icasig( mask_ind, : );
 

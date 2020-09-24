@@ -1,7 +1,8 @@
 tic
 
-% add GIFT toolbox to path
+% add required toolboxes to path
 addpath(genpath('/trdapps/linux-x86_64/matlab/toolboxes/GroupICATv4.0b/'))
+addpath( '/trdapps/linux-x86_64/matlab/toolboxes/spm12/' )
 
 % location of the reference/template spatial maps
 ic_path = '/data/mialab/competition2019/NetworkTemplate/NetworkTemplate_High_VarNor.nii';
