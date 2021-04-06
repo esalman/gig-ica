@@ -1,37 +1,11 @@
-## Welcome to GitHub Pages
+# gig-ica
+This snippet of code can be used to estimate spatial maps and timecourses from a single-subject fMRI scan based on a reference template using the spatially constrained ICA or GIG-ICA algorithm.
 
-You can use the [editor on GitHub](https://github.com/esalman/gig-ica/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Can be used to run analysis in parallel on a large number of subjects or on a cluster and takes less than 2 minutes per subject.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## To-do list
+* Check if size of input and reference equal. if not, perform coregistration.
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/esalman/gig-ica/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## References
+* Du, Y., Fan, Y., 2013. Group information guided ICA for fMRI data analysis. NeuroImage 69, 157–197. https://doi.org/10.1016/j.neuroimage.2012.11.008
+* Calhoun, V.D., 2004. GIFT Software [WWW Document]. URL https://trendscenter.org/software/gift/ (accessed 9.13.17).
